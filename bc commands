@@ -1,0 +1,54 @@
+Swarup Moulik: tiu@tiu-matha-mota:~/Desktop/Swarup$ echo "for(i=0;i<=10;i++){i;}"|bc
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+tiu@tiu-matha-mota:~/Desktop/Swarup$ echo "i=1;while(i<=10){i;i+=1}"|bc
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Swarup Moulik: tiu@tiu-matha-mota:~/Desktop/Swarup$ echo "10^2"|bc
+100
+
+tiu@tiu-matha-mota:~/Desktop/Swarup$ echo "10>5"|bc
+1
+
+tiu@tiu-matha-mota:~/Desktop/Swarup$ echo "1==2"|bc
+0
+
+tiu@tiu-matha-mota:~/Desktop/Swarup$ echo "rar=10;--rar;"|bc
+9
+
+tiu@tiu-matha-mota:~/Desktop/Swarup$ echo "rar=10;rar--;"|bc
+10
+
+tiu@tiu-matha-mota:~/Desktop/Swarup$ echo "var=10;++var;"|bc
+11
+
+tiu@tiu-matha-mota:~/Desktop/Swarup$ echo "var=10;var++;"|bc
+10
+
+tiu@tiu-matha-mota:~/Desktop/Swarup$ echo "10&&5"|bc
+1
+
+tiu@tiu-matha-mota:~/Desktop/Swarup$ echo "0||0"|bc
+0
+
+tiu@tiu-matha-mota:~/Desktop/Swarup$ echo "! 0"|bc
+1
